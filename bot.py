@@ -9,7 +9,7 @@ PUSHCUT_API_KEY = "iJW7T1wzJjXB3hIwDjG7Z"
 CANAL_VENDAS = 1497420567568191589
 CANAL_PERGUNTAS = 1497420606574952559
 
-PUSHCUT_VENDAS = "https://api.pushcut.io/hcfj7mbm0sI_ytLFfbxHL/notifications/Venda%20Aprovada%20%E2%9C%85"
+PUSHCUT_VENDAS = "https://api.pushcut.io/iJW7T1wzJjXB3hIwDjG7Z/notifications/Venda%20Aprovada%F0%9F%92%B0"
 PUSHCUT_PERGUNTAS = "https://api.pushcut.io/hcfj7mbm0sI_ytLFfbxHL/notifications/Pergunta%20Recebida%20%E2%9D%93"
 
 intents = discord.Intents.default()
