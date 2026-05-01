@@ -4,7 +4,7 @@ import re
 import os
 
 TOKEN = os.environ.get("TOKEN")
-PUSHCUT_API_KEY = "CW8scB7pxTKbPJgcswJqAXdL"
+PUSHCUT_API_KEY = "iJW7T1wzJjXB3hIwDjG7Z"
 
 CANAL_VENDAS = 1497420567568191589
 CANAL_PERGUNTAS = 1497420606574952559
@@ -35,7 +35,7 @@ async def on_message(message):
             valor = match.group(0)
             requests.post(
                 PUSHCUT_VENDAS,
-                json={"title": "Venda Aprovada ✅", "text": valor},
+                json={"title": "Venda Aprovada 💰", "text": valor},
                 headers={"API-Key": PUSHCUT_API_KEY}
             )
             print(f"Venda enviada pro Pushcut: {valor}")
