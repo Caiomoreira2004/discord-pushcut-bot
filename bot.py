@@ -35,7 +35,7 @@ async def on_message(message):
             valor = match.group(0)
             requests.post(
                 PUSHCUT_VENDAS,
-                json={"title": "Venda Aprovada 💰", "text": valor},
+                json={"title": "Venda Aprovada💰", "text": valor},
                 headers={"API-Key": PUSHCUT_API_KEY}
             )
             print(f"Venda enviada pro Pushcut: {valor}")
